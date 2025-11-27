@@ -127,7 +127,7 @@ flowchart TD
     S2 --> S3
     S3 -->|YES| NoNovelty
     NoNovelty --> S4
-    S4 --> Combine
+    S4 --> S3
     S3 -->|NO| S5
     S5 -->|YES| Ready
     Ready --> Combine
