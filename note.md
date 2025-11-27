@@ -130,7 +130,6 @@ flowchart TD
     S4 --> S3
     S3 -->|NO| S5
     S5 -->|YES| Ready
-    Ready --> Combine
     S5 -->|NO| Combine
     Combine --> S6
     S6 -->|YES| S7
