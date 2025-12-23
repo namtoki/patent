@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "namtoki-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "namtoki/claude-code-marketplace"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "patent-assistant@namtoki-plugins": true
+  }
+}
